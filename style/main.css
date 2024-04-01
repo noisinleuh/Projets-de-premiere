@@ -1,0 +1,251 @@
+body {
+    background-color: #e6e3d8;
+    font-family: monospace;
+    font-size: 1.3rem;
+    margin-left: 8%;
+    text-align: justify;
+
+}
+
+#liste {
+    color: #696653;
+}
+
+p {
+    color: #696653;
+}
+
+head {
+    margin-left: 10%;
+    padding: 1px 16px;
+    height: 1000px;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 2%;
+}
+
+
+
+h1 {
+    font-family: serif;
+    text-align: center;
+    font-size: 300%;
+    color: #696653;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: arial;
+    text-align: center;
+    font-size: 100%;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 4px #494429;
+}
+
+h3 {
+    font-family: arial;
+    font-size: 85%;
+    color: #696653;
+}
+
+h4 {
+    color: #fffffe;
+    font-size: 115%;
+}
+
+a {
+    color: white;
+}
+
+    a:hover {
+        color: #696653;
+    }
+
+
+
+#home {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    border: 4px solid #696653;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    align-content: center;
+    left: 0;
+    color: #696653;
+    font-size: 1.8rem;
+    z-index: 10;
+}
+
+primary-navigation {
+    margin: 0 auto;
+    display: block;
+    position: fixed;
+    padding: 120px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+#nav li {
+    list-style: none;
+    margin: 0;
+    border-bottom: 2px solid #696653;
+    display: block;
+    padding: 10% 0%;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-family: arvo;
+    color: black;
+}
+
+    #nav li a:hover {
+        color: #696653;
+    }
+
+    #nav li:hover {
+        cursor: pointer;
+    }
+
+    #nav li ul {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        padding-left: 0;
+        left: 100%;
+        top: -150%;
+        display: block;
+        background: white;
+    }
+
+        #nav li:hover > ul,
+        #nav li ul:hover {
+            visibility: visible;
+            opacity: 1;
+            font-size: 12px;
+            display: block;
+            min-width: 250px;
+            text-align: left;
+            padding-top: 20px;
+            box-shadow: 0px 3px 5px -1px #e6e3d8;
+        }
+
+
+        #nav li ul li {
+            clear: both;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 5px;
+            border-style: none;
+            font-size: 175%;
+            padding-bottom: 2%;
+            margin-left: 0%;
+        }
+
+            #nav li ul li a:hover {
+                padding-left: 10px;
+                border-left: 2px solid #696653;
+                transition: all 0.3s ease;
+                background-color: #e6e3d8;
+            }
+
+a {
+    color: #494429;
+    text-decoration: none;
+}
+
+    a.hover {
+        color: #696653;
+    }
+
+
+#nav li ul li a {
+    transition: all 0.5s ease;
+}
+
+li.active {
+    background-color: floralwhite;
+    color: #494429;
+}
+
+#mode {
+    width: 2%;
+    position: fixed;
+    right: 1%;
+    padding: 1%;
+    border: 4px solid #696653;
+    top: 1%;
+    border-radius: 50%;
+    background-color: #e6e3d8;
+    padding-top: 0.9%;
+    padding-bottom: 0.9%;
+}
+
+body {
+    margin-left: 200px;
+    padding: 5px;
+}
+
+#alan {
+    float: right;
+    margin: 15px;
+    /* margin-right: -9%; */
+    align-items: self-end;
+}
+
+
+#date {
+    float: right;
+    margin-left: 1.8%;
+    margin-right: -9%;
+    margin-top: 5%;
+}
+
+#bombe {
+    float: right;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+#king {
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.encrypted-container {
+    position: relative;
+    /* border:1px solid red; */
+    overflow: hidden;
+    display: inline-block;
+}
+
+.encrypted-content {
+    background-color: black;
+    color: #696653;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+}
+
+.encrypted-container:hover .encrypted-content {
+    transition: 0.3s;
+    bottom: 100%;
+}
+
+.decrypted-content {
+    opacity: 1;
+}
